@@ -1,237 +1,811 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1EMZYL7C2F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1EMZYL7C2F');
-</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ZERODAY ACADEMY</title>
+    <!-- Google Analytics — KEEP THIS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EMZYL7C2F"></script>
 
-<link rel="stylesheet" href="style.css">
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-1EMZYL7C2F');
+    </script>
+
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="ZeroDay Academy — Learn cybersecurity, ethical hacking, networking and digital security."
+    >
+
+    <title>ZeroDay Academy | Cybersecurity Learning</title>
+
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
 
 </head>
 
+
 <body>
 
-<!-- NAVBAR -->
 
-<header>
-    <div class="logo">
-        ZERODAY
-    </div>
+<!-- =================================
+     NAVIGATION
+================================= -->
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#roadmaps">Roadmaps</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
+<header class="navbar">
+
+    <a
+        href="#home"
+        class="brand"
+    >
+
+        <div class="brand-icon">
+            <i class="fa-solid fa-terminal"></i>
+        </div>
+
+        <div>
+            <strong>ZeroDay</strong>
+            <span>ACADEMY</span>
+        </div>
+
+    </a>
+
+
+    <nav class="nav-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#learning">Learning</a>
+
+        <a href="#courses">Courses</a>
+
+        <a href="#resources">Resources</a>
+
+        <a href="#about">About</a>
+
     </nav>
+
+
+    <a
+        href="#learning"
+        class="nav-button"
+    >
+        Start Learning
+        <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
 </header>
 
-<!-- HERO SECTION -->
 
-<section class="hero">
 
-    <h1>WELCOME TO <span>ZERODAY</span> ACADEMY</h1>
+<!-- =================================
+     HERO
+================================= -->
 
-    <p>
-        Learn Cybersecurity • Build Projects • Master The Digital World
-    </p>
+<main>
 
-    <div class="buttons">
+<section
+    id="home"
+    class="hero"
+>
 
-        <a href="#roadmaps">
-<button class="start-btn">Start Now</button>
-        </a>
+    <div class="hero-content">
 
-        <a href="https://github.com/mahendrabhatt356-cloud" target="_blank">
+        <div class="status-pill">
 
-            <button class="github-btn">
-                GitHub
+            <span></span>
+
+            CYBERSECURITY LEARNING PLATFORM
+
+        </div>
+
+
+        <h1>
+
+            Learn Cybersecurity.
+            <br>
+
+            <span>Think Like an Attacker.</span>
+
+        </h1>
+
+
+        <p>
+
+            Build your cybersecurity foundation through
+            practical concepts, ethical hacking,
+            networking, Linux, OSINT and web security.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a
+                href="#courses"
+                class="primary-button"
+            >
+
+                Explore Courses
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+
+            <a
+                href="#resources"
+                class="secondary-button"
+            >
+
+                <i class="fa-solid fa-book"></i>
+
+                Free Resources
+
+            </a>
+
+        </div>
+
+
+        <div class="hero-note">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            Learn ethically • Practice responsibly
+
+        </div>
+
+    </div>
+
+
+    <div class="terminal-card">
+
+        <div class="terminal-top">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+
+        <div class="terminal-body">
+
+            <p>
+                <span class="green">user@zeroday</span>:~$
+                whoami
+            </p>
+
+            <h3>
+                cybersecurity_learner
+            </h3>
+
+            <p>
+                <span class="green">user@zeroday</span>:~$
+                learning --start
+            </p>
+
+            <div class="terminal-list">
+
+                <span>✓ Networking</span>
+
+                <span>✓ Linux</span>
+
+                <span>✓ Web Security</span>
+
+                <span>✓ OSINT</span>
+
+                <span>✓ Ethical Hacking</span>
+
+            </div>
+
+
+            <p class="cursor-line">
+                <span class="green">user@zeroday</span>:~$
+                <span class="cursor"></span>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================
+     LEARNING
+================================= -->
+
+<section
+    id="learning"
+    class="section"
+>
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            LEARNING PATH
+        </span>
+
+        <h2>
+            Start from the basics.
+            <span>Build real understanding.</span>
+        </h2>
+
+        <p>
+            A structured path for learning
+            cybersecurity step by step.
+        </p>
+
+    </div>
+
+
+    <div class="learning-grid">
+
+
+        <article class="learning-card">
+
+            <div class="number">
+                01
+            </div>
+
+            <i class="fa-solid fa-network-wired"></i>
+
+            <h3>
+                Networking
+            </h3>
+
+            <p>
+                Understand IP addresses, protocols,
+                ports, DNS, HTTP and how networks communicate.
+            </p>
+
+        </article>
+
+
+        <article class="learning-card">
+
+            <div class="number">
+                02
+            </div>
+
+            <i class="fa-brands fa-linux"></i>
+
+            <h3>
+                Linux
+            </h3>
+
+            <p>
+                Learn the Linux command line,
+                permissions, processes and essential tools.
+            </p>
+
+        </article>
+
+
+        <article class="learning-card">
+
+            <div class="number">
+                03
+            </div>
+
+            <i class="fa-solid fa-globe"></i>
+
+            <h3>
+                Web Security
+            </h3>
+
+            <p>
+                Understand HTTP, authentication,
+                sessions and common web security concepts.
+            </p>
+
+        </article>
+
+
+        <article class="learning-card">
+
+            <div class="number">
+                04
+            </div>
+
+            <i class="fa-solid fa-user-secret"></i>
+
+            <h3>
+                Ethical Hacking
+            </h3>
+
+            <p>
+                Study reconnaissance, vulnerability
+                assessment and responsible security testing.
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================
+     COURSES
+================================= -->
+
+<section
+    id="courses"
+    class="section courses-section"
+>
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            COURSES
+        </span>
+
+        <h2>
+            Learn what
+            <span>actually matters.</span>
+        </h2>
+
+        <p>
+            Beginner-friendly cybersecurity topics
+            designed for practical learning.
+        </p>
+
+    </div>
+
+
+    <div class="course-grid">
+
+
+        <article class="course-card">
+
+            <div class="course-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <span>
+                BEGINNER
+            </span>
+
+            <h3>
+                Cybersecurity Fundamentals
+            </h3>
+
+            <p>
+                Security fundamentals,
+                threats, vulnerabilities and
+                defensive thinking.
+            </p>
+
+            <button>
+                Coming Soon
             </button>
 
+        </article>
+
+
+        <article class="course-card featured">
+
+            <div class="course-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <span>
+                PRACTICAL
+            </span>
+
+            <h3>
+                Web Security Fundamentals
+            </h3>
+
+            <p>
+                Learn how modern web applications
+                work and understand common security risks.
+            </p>
+
+            <button>
+                Coming Soon
+            </button>
+
+        </article>
+
+
+        <article class="course-card">
+
+            <div class="course-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <span>
+                RESEARCH
+            </span>
+
+            <h3>
+                OSINT Fundamentals
+            </h3>
+
+            <p>
+                Learn responsible open-source
+                intelligence collection and analysis.
+            </p>
+
+            <button>
+                Coming Soon
+            </button>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================
+     RESOURCES
+================================= -->
+
+<section
+    id="resources"
+    class="section resources-section"
+>
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            FREE RESOURCES
+        </span>
+
+        <h2>
+            Learn.
+            <span>Practice. Explore.</span>
+        </h2>
+
+        <p>
+            Study material and resources
+            for cybersecurity learners.
+        </p>
+
+    </div>
+
+
+    <div class="resource-grid">
+
+
+        <!-- CHANGE PDF PATHS IF NEEDED -->
+
+        <a
+            href="pdf/networking.pdf"
+            target="_blank"
+            class="resource-card"
+        >
+
+            <div class="resource-icon">
+                <i class="fa-solid fa-file-pdf"></i>
+            </div>
+
+            <div>
+
+                <span>
+                    PDF RESOURCE
+                </span>
+
+                <h3>
+                    Networking Notes
+                </h3>
+
+                <p>
+                    Fundamental networking concepts.
+                </p>
+
+            </div>
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+        </a>
+
+
+        <a
+            href="pdf/osint.pdf"
+            target="_blank"
+            class="resource-card"
+        >
+
+            <div class="resource-icon">
+                <i class="fa-solid fa-file-pdf"></i>
+            </div>
+
+            <div>
+
+                <span>
+                    PDF RESOURCE
+                </span>
+
+                <h3>
+                    OSINT Notes
+                </h3>
+
+                <p>
+                    Introduction to responsible OSINT research.
+                </p>
+
+            </div>
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+        </a>
+
+
+        <a
+            href="#"
+            class="resource-card"
+        >
+
+            <div class="resource-icon">
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+
+            <div>
+
+                <span>
+                    VIDEO
+                </span>
+
+                <h3>
+                    ZeroDay Academy YouTube
+                </h3>
+
+                <p>
+                    Cybersecurity tutorials and learning content.
+                </p>
+
+            </div>
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================
+     ABOUT
+================================= -->
+
+<section
+    id="about"
+    class="about-section"
+>
+
+    <div class="about-content">
+
+        <span class="eyebrow">
+            ABOUT ZERODAY ACADEMY
+        </span>
+
+        <h2>
+            Cybersecurity education,
+            <span>without the noise.</span>
+        </h2>
+
+        <p>
+            ZeroDay Academy is an independent online
+            cybersecurity learning initiative focused on
+            making security concepts easier to understand
+            through structured learning and practical thinking.
+        </p>
+
+        <p>
+            The goal is simple:
+            learn how technology works,
+            understand how it can fail,
+            and develop the skills needed to build
+            and defend secure systems.
+        </p>
+
+
+        <div class="values">
+
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <strong>Learn</strong>
+                <span>Build strong fundamentals.</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-flask"></i>
+                <strong>Practice</strong>
+                <span>Apply concepts in safe labs.</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-shield"></i>
+                <strong>Defend</strong>
+                <span>Think from a security perspective.</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =================================
+     CTA
+================================= -->
+
+<section class="final-cta">
+
+    <div>
+
+        <span class="eyebrow">
+            YOUR JOURNEY STARTS HERE
+        </span>
+
+        <h2>
+            Ready to enter
+            <span>the world of cybersecurity?</span>
+        </h2>
+
+        <p>
+            Start with the fundamentals and
+            build your knowledge one concept at a time.
+        </p>
+
+
+        <a
+            href="#courses"
+            class="primary-button"
+        >
+
+            Explore Learning
+
+            <i class="fa-solid fa-arrow-right"></i>
+
         </a>
 
     </div>
 
-    <div class="terminal">
-        <p>> Initializing ZERODAY SYSTEM...</p>
-        <p>> Access Granted</p>
-        <p>> Cybersecurity Learning Activated</p>
+</section>
+
+</main>
+
+
+
+<!-- =================================
+     FOOTER
+================================= -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+
+        <div class="footer-brand">
+
+            <a
+                href="#home"
+                class="brand"
+            >
+
+                <div class="brand-icon">
+                    <i class="fa-solid fa-terminal"></i>
+                </div>
+
+                <div>
+                    <strong>ZeroDay</strong>
+                    <span>ACADEMY</span>
+                </div>
+
+            </a>
+
+
+            <p>
+                Learn cybersecurity.
+                Build security awareness.
+                Think responsibly.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Explore
+            </h4>
+
+            <a href="#learning">
+                Learning Path
+            </a>
+
+            <a href="#courses">
+                Courses
+            </a>
+
+            <a href="#resources">
+                Resources
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Connect
+            </h4>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#resources">
+                Study Material
+            </a>
+
+        </div>
+
+
     </div>
 
-</section>
 
-<!-- ROADMAP SECTION -->
+    <div class="footer-bottom">
 
-<section id="roadmaps">
+        <span>
+            © 2026 ZeroDay Academy
+        </span>
 
-<h2 class="section-title">
-Cybersecurity Roadmaps
-</h2>
+        <span>
+            Built for cybersecurity learning.
+        </span>
 
-<div class="roadmap-container">
+    </div>
 
-<div class="card">
-<h3>Ethical Hacker</h3>
-<p>Beginner Ethical Hacker Roadmap</p>
-<a href="Ethical hacker Roadmap (1) (1).pdf" target="_blank">
-    <button class="download-btn">
-        📘 Download Ethical Hacker Roadmap
-    </button>
-</a>
-</div>
+</footer>
 
-<div class="card">
-<h3>SOC Analysist</h3>
-<p>SOC Analysist Guide</p>
- <a href="SOC Analysist Roadmap  (1).pdf" target="_blank">
-    <button class="download-btn">
-        📘 Download SOC Analysist Roadmap
-    </button>
- </a>
-</div>
 
-<div class="card">
-<h3>Pentesting</h3>
-<p>Web Pentesting Roadmap</p>
-<a href="https://wa.me/918287030356?text=Hello%20I%20want%20to%20buy%20Pentesting">
-<button>₹149</button>
-</a>
-</div>
 
-<div class="card">
-<h3>Digital Forensics</h3>
-<p>Forensics Learning Path</p>
-<a href="https://wa.me/918287030356?text=Hello%20I%20want%20to%20buy%20Digital%20Forensics">
-<button>₹199</button>
-</a>
-</div>
+<script src="script.js"></script>
 
-</div>
-</section>
-
-<!-- PRODUCTS -->
-
-<section id="products">
-
-<h2 class="section-title">
-Premium Products
-</h2>
-
-<div class="product-grid">
-
-<div class="product-card">
-<h3>Cyber Portfolio UI</h3>
-<p>Premium HTML/CSS source code</p>
-<a href="https://wa.me/918287030356?text=Hello%20I%20want%20to%20buy%20Cyberportfolio%20UI">
-<button>₹99</button>
-</a>
-</div>
-
-<div class="product-card">
-<h3>Linux Cheat Sheet</h3>
-<p>Beginner Friendly Linux PDF</p>
-<a href="Networking-Notes.pdf.docx" target="_blank">
-    <button class="download-btn">
-        📘 Download Networking-Notes
-    </button>
-</a>
-</div>
-
-<div class="product-card">
-<h3>Mini Labs</h3>
-<p>Cybersecurity Practical Labs</p>
-<a href="https://wa.me/918287030356?text=Hello%20I%20want%20to%20buy%20Mini%20labs">
-<button>Coming soon</button>
-</a>
-</div>
-
-</div>
-
-</section>
-
-<!-- PAYMENT SECTION -->
-
-<section class="payment">
-
-<h2>Secure Payment</h2>
-
-<p>
-UPI • Paytm • PhonePe • Google Pay
-</p>
-
-<img src="qr.png" alt="Payment QR">
-
-</section>
-    <section class="purchase">
-
-<h2 class="section-title">
-How To Purchase
-</h2>
-
-<div class="purchase-box">
-
-<p>1. Click on Buy Now button</p>
-
-<p>2. Message us on WhatsApp</p>
-
-<p>3. Complete payment using QR code</p>
-
-<p>4. Receive your PDF or product instantly</p>
-
-</div>
-
-</section>
-
-<!-- SOCIAL SECTION -->
-
-<section id="contact">
-
-<h2 class="section-title">
-Connect With Us
-</h2>
-
-<div class="social-icons">
-
-<a href="https://www.instagram.com/zeroday_academy_official?igsh=a2FuaDJweXpka256">
-<i class="fab fa-instagram"></i>
-</a>
-
-<a href="https://youtube.com/@zeroday_academy01?si=DYesN7Ae---JmAR0">
-<i class="fab fa-youtube"></i>
-</a>
-
-<a href="https://www.linkedin.com/in/mahendra-bhatt-1823413a4?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-<i class="fab fa-linkedin"></i>
-</a>
-
-<a href="https://wa.me/918287030356">
-<i class="fab fa-whatsapp"></i>
-</a>
-
-<a href="https://github.com/mahendrabhatt356-cloud">
-<i class="fab fa-github"></i>
-</a>
-
-</div>
-
-</section>
-<!-- FOOTER -->
-
-<p>
-© 2026 ZERODAY Academy.
-All Rights Reserved.
-</p>
 </body>
-</html>
+
+   </html>
